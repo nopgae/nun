@@ -1,0 +1,119 @@
+[
+  {
+    "id": "korea",
+    "name": "대한민국",
+    "nameEn": "South Korea",
+    "country": "KR",
+    "latitude": 36.5,
+    "longitude": 127.5,
+    "zoom": 7
+  },
+  {
+    "id": "seoul",
+    "name": "서울특별시",
+    "nameEn": "Seoul",
+    "country": "KR",
+    "latitude": 37.5665,
+    "longitude": 126.9780,
+    "zoom": 11
+  },
+  {
+    "id": "busan",
+    "name": "부산광역시",
+    "nameEn": "Busan",
+    "country": "KR",
+    "latitude": 35.1796,
+    "longitude": 129.0756,
+    "zoom": 11
+  },
+  {
+    "id": "jeju",
+    "name": "제주특별자치도",
+    "nameEn": "Jeju",
+    "country": "KR",
+    "latitude": 33.4996,
+    "longitude": 126.5312,
+    "zoom": 10
+  },
+  {
+    "id": "incheon",
+    "name": "인천광역시",
+    "nameEn": "Incheon",
+    "country": "KR",
+    "latitude": 37.4563,
+    "longitude": 126.7052,
+    "zoom": 11
+  },
+  {
+    "id": "daegu",
+    "name": "대구광역시",
+    "nameEn": "Daegu",
+    "country": "KR",
+    "latitude": 35.8714,
+    "longitude": 128.6014,
+    "zoom": 11
+  },
+  {
+    "id": "daejeon",
+    "name": "대전광역시",
+    "nameEn": "Daejeon",
+    "country": "KR",
+    "latitude": 36.3504,
+    "longitude": 127.3845,
+    "zoom": 11
+  },
+  {
+    "id": "gwangju",
+    "name": "광주광역시",
+    "nameEn": "Gwangju",
+    "country": "KR",
+    "latitude": 35.1595,
+    "longitude": 126.8526,
+    "zoom": 11
+  },
+  {
+    "id": "gyeonggi",
+    "name": "경기도",
+    "nameEn": "Gyeonggi",
+    "country": "KR",
+    "latitude": 37.2750,
+    "longitude": 127.0094,
+    "zoom": 9
+  },
+  {
+    "id": "gangwon",
+    "name": "강원도",
+    "nameEn": "Gangwon",
+    "country": "KR",
+    "latitude": 37.8228,
+    "longitude": 128.1555,
+    "zoom": 9
+  },
+  {
+    "id": "ulsan",
+    "name": "울산광역시",
+    "nameEn": "Ulsan",
+    "country": "KR",
+    "latitude": 35.5384,
+    "longitude": 129.3114,
+    "zoom": 11
+  },
+  {
+    "id": "jeonbuk",
+    "name": "전라북도",
+    "nameEn": "Jeollabuk",
+    "country": "KR",
+    "latitude": 35.8150,
+    "longitude": 127.1525,
+    "zoom": 9
+  },
+  {
+    "id": "gyeongbuk",
+    "name": "경상북도",
+    "nameEn": "Gyeongsangbuk",
+    "country": "KR",
+    "latitude": 36.5760,
+    "longitude": 128.5055,
+    "zoom": 9
+  }
+]

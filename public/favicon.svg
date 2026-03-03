@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#0a0a0f"/>
+  <!-- Eye outline -->
+  <ellipse cx="16" cy="16" rx="13" ry="8" stroke="#00f0ff" stroke-width="1.5" fill="none"/>
+  <!-- Iris -->
+  <circle cx="16" cy="16" r="5" stroke="#00f0ff" stroke-width="1.5" fill="none"/>
+  <!-- Pupil -->
+  <circle cx="16" cy="16" r="2" fill="#00f0ff"/>
+  <!-- Glow -->
+  <circle cx="16" cy="16" r="2" fill="#00f0ff" opacity="0.5"/>
+  <!-- Corner marks -->
+  <line x1="3" y1="3" x2="7" y2="3" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="3" y1="3" x2="3" y2="7" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="29" y1="3" x2="25" y2="3" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="29" y1="3" x2="29" y2="7" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="3" y1="29" x2="7" y2="29" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="3" y1="29" x2="3" y2="25" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="29" y1="29" x2="25" y2="29" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="29" y1="29" x2="29" y2="25" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+</svg>
