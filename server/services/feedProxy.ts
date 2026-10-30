@@ -55,29 +55,3 @@ export async function fetchSnapshot(feedUrl: string, res: Response): Promise<voi
     res.status(502).json({ error: 'Failed to fetch snapshot', details: String(err) });
   }
 }
-
-export async function validateFeed(url: string): Promise<{ alive: boolean; status?: number; contentType?: string }> {
-  try {
-    const { default: fetch } = await import('node-fetch');
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
-
-    const response = await fetch(url, {
-      method: 'HEAD',
-      signal: controller.signal as Parameters<typeof fetch>[1] extends { signal?: infer S } ? S : never,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; NunCameraViewer/1.0)',
-      },
-    });
-
-    clearTimeout(timeout);
-
-    return {
-      alive: response.ok,
-      status: response.status,
-      contentType: response.headers.get('content-type') ?? undefined,
-    };
-  } catch {
-    return { alive: false };
-  }
-}
